@@ -1,6 +1,6 @@
  // Aquí tu código
 const agregar = document.getElementById("agregarElemento");
-const lista = document.getElementById("lista");
+const list = document.getElementById("lista");
 
 
 agregar.addEventListener("click", () => {
@@ -14,7 +14,7 @@ agregar.addEventListener("click", () => {
     li.textContent = nuevoElemento;
 
     
-    lista.appendChild(li);
+    list.appendChild(li);
   } else {
     alert("Por favor, escribe un texto válido antes de agregarlo.");
   }
