@@ -1,9 +1,9 @@
  // Aquí tu código
-const botonAgregar = document.getElementById("agregarElemento");
+const agregar = document.getElementById("agregarElemento");
 const lista = document.getElementById("lista");
 
 
-botonAgregar.addEventListener("click", () => {
+agregar.addEventListener("click", () => {
  
   const nuevoElemento = prompt("Introduce un elemento para agregar a la lista:");
 
