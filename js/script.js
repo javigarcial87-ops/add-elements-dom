@@ -14,11 +14,14 @@
 
 const lista = document.getElementById('lista');
 const agregar = document.getElementById('agregar');
+
 agregar.addEventListener('click', function(){
-const producto = prompt('Añade un producto');
-const li = document.createElement('li');
-li.textContent = producto;
-lista.appendChild(li)  
+  const producto = prompt('Añade un producto');
+  if (producto&&producto.trim() !== "") {
+    const li = document.createElement('li');
+    li.textContent = producto;
+    lista.appendChild(li); 
+} 
 });
 
 
