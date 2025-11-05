@@ -1,11 +1,11 @@
  // Aquí tu código
 const agregar = document.getElementById("agregarElemento");
 const list = document.getElementById("lista");
-
+const nuevoElemento = prompt("Introduce un elemento para agregar a la lista:");
 
 agregar.addEventListener("click", () => {
  
-  const nuevoElemento = prompt("Introduce un elemento para agregar a la lista:");
+ 
 
   
   if (nuevoElemento && nuevoElemento.trim() !== "") {
