@@ -13,23 +13,3 @@ function agregarElemento(){
 }
 
 
-// const agregar = document.getElementById("agregarElemento");
-// const list = document.getElementById("lista");
-// const nuevoElemento = prompt("Introduce un elemento para agregar a la lista:");
-
-// agregar.addEventListener("click", () => {
- 
- 
-
-  
-//   if (nuevoElemento && nuevoElemento.trim() !== "") {
-    
-//     const li = document.createElement("li");
-//     li.textContent = nuevoElemento;
-
-    
-//     list.appendChild(li);
-//   } else {
-//     alert("Por favor, escribe un texto válido antes de agregarlo.");
-//   }
-// });
