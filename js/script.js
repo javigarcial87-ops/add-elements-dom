@@ -1,4 +1,4 @@
- // Aquí tu código
+
 
 function agregarElemento(){
   const nuevoElemento=prompt("Introduce un nuevo elemento");
